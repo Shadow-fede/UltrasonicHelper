@@ -5,6 +5,10 @@ UltrasonicHelper::UltrasonicHelper(int trigPin, int echoPin, int numReadings) {
     _echoPin = echoPin;
     _numReadings = numReadings;
 
+
+}
+
+void UltrasonicHelper::begin(){
     pinMode(_trigPin, OUTPUT);
     pinMode(_echoPin, OUTPUT);
 }

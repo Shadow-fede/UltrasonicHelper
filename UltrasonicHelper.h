@@ -9,6 +9,7 @@ class UltrasonicHelper {
 
         float calcDistance();
         float averageDistance();
+        void begin();
 
     private:
         int _trigPin;
