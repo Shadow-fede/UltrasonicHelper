@@ -10,7 +10,7 @@ UltrasonicHelper::UltrasonicHelper(int trigPin, int echoPin, int numReadings) {
 
 void UltrasonicHelper::begin(){
     pinMode(_trigPin, OUTPUT);
-    pinMode(_echoPin, OUTPUT);
+    pinMode(_echoPin, INPUT);
 }
 
 float UltrasonicHelper::averageDistance() {
